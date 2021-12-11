@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Match de Gwent</title>
+<link rel="stylesheet" type="text/css" href="Tournoi.css" />
+  	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta http-equiv="content-language" content="FR"/>
+ </head>
+
+ <body onload="ajouterOnClick();">
+
+  <a name="haut"></a>
+
+	<div id="joueur1">
+		<div id="j1g" class="gauche">
+			<div>Joueur 1. </div> 
+			<div>Nombre de victoires : <span id="j1compt" class="compteur">0</span>.</div> 
+			<div>Score : <span id="j1score" class="compteur">0</span>.</div>
+		</div>
+		<div id="j1deck" class="deck">
+			<img src="./img/j1corps01.jpg" alt="5" class="corps1" width="80" height="150" />
+			<img src="./img/j1corps02.jpg" alt="2" class="corps1" width="80" height="150" />
+			<img src="./img/j1corps03.jpg" alt="5" class="corps1" width="80" height="150" />
+			<img src="./img/j1dist01.jpg" alt="5" class="dist1" width="80" height="150" />
+			<img src="./img/j1dist02.jpg" alt="4" class="dist1" width="80" height="150" />
+			<img src="./img/j1dist03.jpg" alt="6" class="dist1" width="80" height="150" />
+			<img src="./img/j1dist04.jpg" alt="4" class="dist1" width="80" height="150" />
+			<img src="./img/j1siege01.jpg" alt="6" class="siege1" width="80" height="150" />
+			<img src="./img/j1siege02.jpg" alt="6" class="siege1" width="80" height="150" />
+			<img src="./img/j1siege03.jpg" alt="6" class="siege1" width="80" height="150" />
+		</div>
+
+
+
+		<div id="j1plateau" class="plateau">
+			<div id="j1siege" class="plat">
+				<!--pour avoir img background en css-->
+				<img src="./img/backsiege1.jpg" alt="4" width="1" height="150" />
+			</div>
+			<div id="j1dist" class="plat">
+				<img src="./img/backdist1.jpg" alt="4"  width="1" height="150" />
+			</div>
+			<div id="j1corps" class="plat">
+				<img src="./img/backcorps1.jpg" alt="4" width="1" height="150" />
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	<div id="joueur2">
+		<div id="j2g" class="gauche">
+			<div>Joueur 2. </div> 
+			<div>Nombre de victoires : <span id="j2compt" class="compteur">0</span>.</div> 
+			<div>Score : <span id="j2score" class="compteur">0</span>.</div>
+		</div>
+
+
+		
+		<div id="j2plateau" class="plateau">
+			<div id="j2corps" class="plat">
+				<img src="./img/backcorps2.jpg" alt="4" width="1" height="150" />
+			</div>
+			<div id="j2dist" class="plat">
+				<img src="./img/backdist2.jpg" alt="4"  width="1" height="150" />
+			</div>			
+			<div id="j2siege" class="plat">
+				<img src="./img/backsiege2.jpg" alt="4" width="1" height="150" />
+			</div>
+			
+		</div>
+
+		
+		<div id="j2deck" class="deck"> 
+			<img src="./img/j2corps01.jpg" alt="6" class="corps2" width="80" height="150" />
+			<img src="./img/j2corps02.jpg" alt="2" class="corps2" width="80" height="150" />
+			<img src="./img/j2dist01.jpg" alt="6" class="dist2" width="80" height="150" />
+			<img src="./img/j2dist02.jpg" alt="4" class="dist2" width="80" height="150" />
+			<img src="./img/j2dist03.jpg" alt="10" class="dist2" width="80" height="150" />
+			<img src="./img/j2dist04.jpg" alt="6" class="dist2" width="80" height="150" />
+			<img src="./img/j2dist05.jpg" alt="3" class="dist2" width="80" height="150" />
+			<img src="./img/j2dist06.jpg" alt="2" class="dist2" width="80" height="150" />
+			<img src="./img/j2siege01.jpg" alt="10" class="siege2" width="80" height="150" />
+			<img src="./img/j2siege02.jpg" alt="5" class="siege2" width="80" height="150" />
+		</div>
+	</div>
+ </body>
+ <script type="text/javascript" src="Tournoi.js" defer> </script>
+</html>

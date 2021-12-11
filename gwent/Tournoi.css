@@ -1,0 +1,92 @@
+.gauche{
+	float:left;
+}
+.deck {
+	margin-left:20%;
+}
+
+.plat {
+	margin-left:20%;
+}
+
+img{
+	margin: 2px;
+}
+
+
+/*Bordures et images de fond*/
+#j1corps, #j1dist, #j1siege{
+	border-width: 5px;
+	border-color: red;
+	background-size: 50% 50%; /*largeur hauteur */
+}
+#j1corps{
+	border-style: dotted;
+	background-image: url("img/backcorps1.jpg");
+}
+#j1dist{
+	border-style: dashed; 
+	background-image: url("img/backdist1.jpg");
+	
+}
+#j1siege{
+	border-style: solid;
+	background-image: url("img/backsiege1.jpg");
+}
+#j1deck{
+	background-image: url("img/backdeck1.jpg");
+	background-size: 80px 150px;
+	border: double yellow;
+}
+
+
+
+#j2corps, #j2dist, #j2siege{
+	border-width: 5px;
+	border-color: blue;
+	background-size: 50%;
+}
+#j2corps{
+	border-style: dotted;
+	background-image: url("img/backcorps2.jpg");
+	background-size: 50%;
+}
+#j2dist{
+	border-style: dashed; 
+	background-image: url("img/backdist2.jpg");
+}
+#j2siege{
+	border-style: solid;
+	background-image: url("img/backsiege2.jpg");
+}
+#j2deck{
+	background-image: url("img/backdeck2.jpg");
+	background-size: 80px 150px;
+	border: double green;
+}
+
+
+
+body{
+	background-image: url("img/gwent_wall.jpg");
+}
+
+
+
+/* Forme et couleur du texte*/
+#j1g{
+	color: #8B0000;
+	font-style: italic;
+}
+#j1score, #j1compt{
+	font-weight: bold;
+	color:yellow;
+}
+#j2g{
+	color: yellow;
+	font-style: italic;
+}
+#j2score, #j2compt{
+	font-weight: bold;
+	color:green;
+}
