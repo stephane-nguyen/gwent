@@ -15,4 +15,4 @@ If it is a siege unit, it is in the background. He can also skip his turn.
 
 When a player passes his turn or has no more cards to play, points are counted by comparing the sum of the powers of the cards placed on the table by player 1 with the sum of the powers of the cards placed by player 2 (here, we have taken some liberties with the real rules of Gwent, for simplicity). The player whose cards have the most accumulated power wins the round. Whoever wins 2 rounds wins the game (Note that there is a possibility of a tie or a draw).
 
-Translated with www.DeepL.com/Translator (free version)
+
