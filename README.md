@@ -1,16 +1,18 @@
 # gwent
-Le Gwent se joue à deux. 
-
-Chaque joueur dispose d'un certain nombre de cartes symbolisant une unité appartenant à l'une des trois catégories suivantes : corps-à-corps, combat à distance, et siège. 
-Chaque carte possède une certaine puissance. 
-
-Lors d'une manche, chaque joueur joue à tour de rôle. Pendant son tour, le joueur peut choisir une carte de son jeu ("deck") qu'il pose sur le plateau central, selon la catégorie à laquelle appartient cette carte. 
 
 
-Si c'est une unité de corps-à-corps, elle va devant. 
+Each player has a number of cards symbolizing a unit belonging to one of the three following categories: hand-to-hand, ranged combat, and siege. 
+Each card has a certain power. 
 
-Si c'est une unité de combat à distance, elle reste au centre. 
+During a round, each player takes turns playing. During his turn, the player may choose a card from his deck and place it on the central board, depending on the category to which that card belongs. 
 
-Si c'est une unité de siège, elle est en retrait. Il peut également passer son tour. 
 
-Quand un joueur passe son tour ou n'a plus de cartes à jouer, le décompte des points est fait en comparant la somme des puissances des cartes posées sur la table par le joueur 1 avec la somme des puissances des cartes posées par le joueur 2 (ici, nous avons pris quelques libertés par rapport aux véritables règles du Gwent, pour des raisons de simplicité). Celui dont les cartes possèdent le plus de puissance accumulée remporte la manche. Celui qui remporte 2 manches remporte la partie (Notez qu'il y a possibilité d'ex-aequo et de match nul).
+If it is a close combat unit, it goes in front. 
+
+If it is a ranged combat unit, it stays in the center. 
+
+If it is a siege unit, it is in the background. He can also skip his turn. 
+
+When a player passes his turn or has no more cards to play, points are counted by comparing the sum of the powers of the cards placed on the table by player 1 with the sum of the powers of the cards placed by player 2 (here, we have taken some liberties with the real rules of Gwent, for simplicity). The player whose cards have the most accumulated power wins the round. Whoever wins 2 rounds wins the game (Note that there is a possibility of a tie or a draw).
+
+Translated with www.DeepL.com/Translator (free version)
